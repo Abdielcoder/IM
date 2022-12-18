@@ -1,0 +1,102 @@
+{
+  "project_info": {
+    "project_number": "1031307442471",
+    "project_id": "hermes-63a7d",
+    "storage_bucket": "hermes-63a7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031307442471:android:e9fde50e2e3fbf38355102",
+        "android_client_info": {
+          "package_name": "com.hermes.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031307442471-286vs96u63h7332m1a6q7qns4m5o4ae2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hermes.messenger",
+            "certificate_hash": "9d26ad1243b1020a9115f1dacc749447136f9254"
+          }
+        },
+        {
+          "client_id": "1031307442471-5l6d6398p13nl9gm8n1oldt3hlu58vpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hermes.messenger",
+            "certificate_hash": "b0b2487606106fb0ab848f569b6ebc5c27e97505"
+          }
+        },
+        {
+          "client_id": "1031307442471-c8kd61lgk85krdt0b0ttklap05bjbvph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hermes.messenger",
+            "certificate_hash": "86bc41bc84ddd20b96b2263ec4d1f887118f81e8"
+          }
+        },
+        {
+          "client_id": "1031307442471-fk1hnlvoip4m4l506i4rroh2nk19h73p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hermes.messenger",
+            "certificate_hash": "00371d9892daa79f02df45f67367133bf8255bb2"
+          }
+        },
+        {
+          "client_id": "1031307442471-mibv6cp4qrlgis3dp2diuurf5sfqca10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hermes.messenger",
+            "certificate_hash": "1b4f12ce1282553bbfdf5187df3d89321792c744"
+          }
+        },
+        {
+          "client_id": "1031307442471-ofi83s8m6ibfevrkv0vker991b7eq0om.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hermes.messenger",
+            "certificate_hash": "b04b5229af7240e61709ed18cd6d044e7d7625b9"
+          }
+        },
+        {
+          "client_id": "1031307442471-vd0jh9h5ts1pf2bdeuji5rscn6afig9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hermes.messenger",
+            "certificate_hash": "5e9ecf1236ade97ca0df9a61564ab487dfd5e6e6"
+          }
+        },
+        {
+          "client_id": "1031307442471-aeujrq9dt5vlma82c8g5ct0qn796u6o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL0j71RXbEoI3CYTZ9duunUYvhbMFgP_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031307442471-aeujrq9dt5vlma82c8g5ct0qn796u6o0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1031307442471-mevblomsh2c9ihorks3osgvb47g3ckdd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.whatsappUi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
