@@ -58,7 +58,7 @@ class _MobileLayoutScreenState extends ConsumerState<MobileLayoutScreen>
           backgroundColor: appBarColor,
           centerTitle: false,
           title: const Text(
-            'WhatsApp',
+            'TeraChat',
             style: TextStyle(
               fontSize: 20,
               color: Colors.grey,
