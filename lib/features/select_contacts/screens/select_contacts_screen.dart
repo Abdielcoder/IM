@@ -44,17 +44,20 @@ class SelectContactsScreen extends ConsumerWidget {
                   return InkWell(
                     onTap: () => selectContact(ref, contact, context),
                     child: Padding(
-                      padding: const EdgeInsets.only(bottom: 8.0),
+                      padding: const EdgeInsets.only(top:12,bottom: 8.0),
                       child: ListTile(
                         title: Text(
                           contact.displayName,
                           style: const TextStyle(
-                            color: Colors.black,
+                            color: Colors.white,
                             fontSize: 18,
                           ),
                         ),
                         leading: contact.photo == null
-                            ? null
+                            ? CircleAvatar(
+                          backgroundImage: AssetImage('assets/noavatar.jpeg'),
+                          radius: 30,
+                        )
                             : CircleAvatar(
                                 backgroundImage: MemoryImage(contact.photo!),
                                 radius: 30,

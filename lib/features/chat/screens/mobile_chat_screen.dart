@@ -11,11 +11,13 @@ import 'package:whatsapp_ui/features/chat/widgets/chat_list.dart';
 
 
 class MobileChatScreen extends ConsumerWidget {
+
   static const String routeName = '/mobile-chat-screen';
   final String name;
   final String uid;
   final bool isGroupChat;
   final String profilePic;
+
   const MobileChatScreen({
     Key? key,
     required this.name,
@@ -31,11 +33,13 @@ class MobileChatScreen extends ConsumerWidget {
       uid,
       profilePic,
       isGroupChat,
+
     );
   }
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    print('GPT - TERCERO');
     return CallPickupScreen(
       scaffold: Scaffold(
         appBar: AppBar(

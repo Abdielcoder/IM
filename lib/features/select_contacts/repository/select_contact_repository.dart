@@ -42,14 +42,14 @@ class SelectContactRepository {
           ' ',
           '',
         );
+        print('GPT - PRIMERO');
         if (selectedPhoneNum == userData.phoneNumber) {
           isFound = true;
           Navigator.pushNamed(
             context,
             MobileChatScreen.routeName,
             arguments: {
-              'isGroupchat':false,
-              'profilePic': userData.profilePic,
+              'isGroupChat': false,
               'name': userData.name,
               'uid': userData.uid,
             },

@@ -58,22 +58,22 @@ class _MobileLayoutScreenState extends ConsumerState<MobileLayoutScreen>
           backgroundColor: appBarColor,
           centerTitle: false,
           title: const Text(
-            'TeraChat',
+            'WhatsApp',
             style: TextStyle(
               fontSize: 20,
-              color: Colors.white,
+              color: Colors.grey,
               fontWeight: FontWeight.bold,
             ),
           ),
           actions: [
             IconButton(
-              icon: const Icon(Icons.search, color: Colors.white),
+              icon: const Icon(Icons.search, color: Colors.grey),
               onPressed: () {},
             ),
             PopupMenuButton(
               icon: const Icon(
                 Icons.more_vert,
-                color: Colors.white,
+                color: Colors.grey,
               ),
               itemBuilder: (context) => [
                 PopupMenuItem(
@@ -93,7 +93,7 @@ class _MobileLayoutScreenState extends ConsumerState<MobileLayoutScreen>
             indicatorColor: tabColor,
             indicatorWeight: 4,
             labelColor: tabColor,
-            unselectedLabelColor: Colors.white70,
+            unselectedLabelColor: Colors.grey,
             labelStyle: const TextStyle(
               fontWeight: FontWeight.bold,
             ),
@@ -136,7 +136,7 @@ class _MobileLayoutScreenState extends ConsumerState<MobileLayoutScreen>
           backgroundColor: tabColor,
           child: const Icon(
             Icons.comment,
-            color: Colors.black,
+            color: Colors.white,
           ),
         ),
       ),
