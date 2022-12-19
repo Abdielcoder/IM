@@ -43,6 +43,8 @@ class SelectContactRepository {
           '',
         );
         print('GPT - PRIMERO');
+        print(selectedPhoneNum);
+        print(userData.phoneNumber);
         if (selectedPhoneNum == userData.phoneNumber) {
           isFound = true;
           Navigator.pushNamed(

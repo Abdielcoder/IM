@@ -74,7 +74,7 @@ class _ChatListState extends ConsumerState<ChatList> {
             itemBuilder: (context, index) {
               final messageData = snapshot.data![index];
               var timeSent = DateFormat.Hm().format(messageData.timeSent);
-
+              print('GPT TIME'+ timeSent);
               if (!messageData.isSeen &&
                   messageData.recieverid ==
                       FirebaseAuth.instance.currentUser!.uid) {

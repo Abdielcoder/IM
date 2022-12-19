@@ -278,6 +278,7 @@ class ChatRepository {
   }) async {
     try {
       var timeSent = DateTime.now();
+
       var messageId = const Uuid().v1();
 
       String imageUrl = await ref
