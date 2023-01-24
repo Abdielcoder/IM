@@ -9,6 +9,7 @@ import 'package:whatsapp_ui/features/select_contacts/screens/select_contacts_scr
 import 'package:whatsapp_ui/features/chat/widgets/contacts_list.dart';
 import 'package:whatsapp_ui/features/status/screens/confirm_status_screen.dart';
 import 'package:whatsapp_ui/features/status/screens/status_contacts_screen.dart';
+import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 
 class MobileLayoutScreen extends ConsumerStatefulWidget {
   const MobileLayoutScreen({Key? key}) : super(key: key);
@@ -53,6 +54,19 @@ class _MobileLayoutScreenState extends ConsumerState<MobileLayoutScreen>
     return DefaultTabController(
       length: 3,
       child: Scaffold(
+        bottomNavigationBar: ConvexAppBar(
+          color: Colors.white,
+          backgroundColor: blackColor,
+          initialActiveIndex: 1,
+          items: const [
+            TabItem(icon: Icons.mark_chat_unread_sharp, title: 'Home'),
+            TabItem(icon: Icons.add, title: 'New Chat'),
+            TabItem(icon: Icons.person_pin_outlined, title: 'Profile'),
+            // TabItem(icon: Icons.message, title: 'Message'),
+            // TabItem(icon: Icons.people, title: 'Profile'),
+          ],
+          onTap: (int i) => print('click index=$i'),
+        ),
         appBar: AppBar(
           elevation: 0,
           backgroundColor: appBarColor,
