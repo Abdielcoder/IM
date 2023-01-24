@@ -11,6 +11,8 @@ import 'package:whatsapp_ui/features/status/screens/confirm_status_screen.dart';
 import 'package:whatsapp_ui/features/status/screens/status_contacts_screen.dart';
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 
+import 'features/profile/screens/profile_user_screen.dart';
+
 class MobileLayoutScreen extends ConsumerStatefulWidget {
   const MobileLayoutScreen({Key? key}) : super(key: key);
 
@@ -48,7 +50,8 @@ class _MobileLayoutScreenState extends ConsumerState<MobileLayoutScreen>
         break;
     }
   }
-
+  int selectedPage = 0;
+  final _pageOption =[ProfilePage(),ProfilePage(),ProfilePage()];
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -57,7 +60,7 @@ class _MobileLayoutScreenState extends ConsumerState<MobileLayoutScreen>
         bottomNavigationBar: ConvexAppBar(
           color: Colors.white,
           backgroundColor: blackColor,
-          initialActiveIndex: 1,
+          //initialActiveIndex: 1,
           items: const [
             TabItem(icon: Icons.mark_chat_unread_sharp, title: 'Home'),
             TabItem(icon: Icons.add, title: 'New Chat'),
@@ -65,7 +68,19 @@ class _MobileLayoutScreenState extends ConsumerState<MobileLayoutScreen>
             // TabItem(icon: Icons.message, title: 'Message'),
             // TabItem(icon: Icons.people, title: 'Profile'),
           ],
-          onTap: (int i) => print('click index=$i'),
+
+          onTap: (int i) {
+            if(i==2) {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) =>
+                      ProfilePage(),
+                ),
+              );
+            }
+          },
+
         ),
         appBar: AppBar(
           elevation: 0,
