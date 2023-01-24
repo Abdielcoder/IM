@@ -19,7 +19,7 @@ class LandingScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const SizedBox(height: 50),
+            const SizedBox(height: 20),
             const Text(
               'Welcome to Terachat',
               style: TextStyle(
@@ -30,8 +30,8 @@ class LandingScreen extends StatelessWidget {
             SizedBox(height: size.height / 9),
             Image.asset(
               'assets/bg.png',
-              height: 340,
-              width: 340,
+              height: 250,
+              width: 250,
               color: tabColor,
             ),
             SizedBox(height: size.height / 9),
