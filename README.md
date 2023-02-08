@@ -34,10 +34,5 @@ Then run the following commands to run your app:
   flutter run
 ```
 
-## Tech Used
-**Server**: Firebase Auth, Firebase Storage, Firebase Firestore
-
-**Client**: Flutter, Riverpod
-    
 
 
